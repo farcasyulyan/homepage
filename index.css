@@ -1,0 +1,301 @@
+/*font used in site is : 
+font-family: 'Dancing Script', cursive;
+font-family: 'Marck Script', cursive;
+font-family: 'Sacramento', cursive;*/
+/* font-size: 16px = 100% = 1em*/
+
+/********************************************************************************TAG SELECTOR***********************************************************************************************************************/
+
+a:link {
+    color:blue;
+}
+a:visited {
+    color: rgb(45, 65, 243);
+    text-decoration: none;
+}
+a:active {
+    color: aqua;
+    text-decoration: underline;
+}
+aside.left {
+    color: black;
+    padding: 3px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size: 2vw;
+    width:10%;
+    float: left;
+    margin-right: 0px;
+}
+aside.left ul { 
+    list-style-type: none;
+    padding: 0px; 
+}
+aside.left li {
+    font-family:'Times New Roman', Times, serif;
+    margin: 0px;   
+}
+aside.left li a {
+    text-decoration: none;
+}
+body {
+    background-color: white;
+    margin: 0px;
+    padding-top: 0px;
+    width: 1346px;
+    align-content: center;
+}
+button {
+    background-image: linear-gradient(rgb(175, 245, 135), rgb(58, 116, 116));
+    padding: 16px;
+    border-radius: 5%;
+    width: 100%;
+    margin: 0px;
+    font-size: 1vw;
+    font-family: 43%;
+    font-weight: bold;
+    color: rgb(238, 238, 247);
+    border: none;
+}
+footer {
+    background-image: linear-gradient(rgb(175, 245, 135), rgb(101, 221, 221));
+    border: 3px solid rgb(181, 184, 181);
+    font: size 80px;
+    color:blue;
+    font-weight: bold;
+    position: sticky;
+}
+header {
+    background-image: linear-gradient(rgb(175, 245, 135), rgb(101, 221, 221));
+    margin: 0px;
+    padding: 10px;
+    position: sticky;
+}
+header h3 {
+    margin: 0px;
+    padding: 2px 2px 0px 3px;
+    color: blue;
+    text-align: right;
+    display: inline;
+    font-size: 1.2vw;
+    position: sticky;
+    cursor: pointer;
+}
+header nav ul {
+    margin: 0px;
+    padding: 0px 15px 2px 5px;
+    display: inline;
+    position: sticky;
+}
+header nav ul li {
+    background-color: white;
+    color: blue;
+    list-style-type: none ;
+    display: inline-block;
+    margin: 5px;
+    padding: 5px 15px 0px 5px;
+    border-radius: 10px;
+    width: auto;
+    font-size: 1vw;
+    position: sticky;
+}
+html {
+    width: 1346px;
+    align-content: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+table, td, th {
+    margin: 0px;
+    padding: 5px;
+}
+td {
+    text-align: left;
+    text-indent: 25px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+p {
+    line-height: 2;
+}
+
+
+/*******************************************************************************CLASS SELECTOR*********************************************************************************************************************/
+
+.bottom-cell {
+     text-align: center;
+ }
+.biserica {
+    font-size: 1.5vw;
+    text-align: left;
+    text-indent: 20px;
+}
+.button1 {
+    background-image: linear-gradient(rgb(175, 245, 135), rgb(58, 116, 116));
+    border-radius: 5%;
+    padding: 8px;
+    width: 32px;
+    height: 24px;
+}
+.button2 {
+    display: flex;
+    gap: 10px;
+}
+.col-2 {
+    padding: 2px;
+}
+.link {
+    margin: 0px;
+}
+.col-7 {
+    padding-top: 10px;
+    padding-left: auto;
+    padding-right: auto;
+}
+
+.imgindex {
+    float: left;
+}
+.imgindexright {
+    float: right;
+    margin-left: 30px;
+}
+.imgtableright {
+    margin: auto;
+}
+.imagelist {
+    list-style-type: none;
+}
+.imagelist1 {
+    display: inline-block;
+    text-align: center;
+}
+.indextext {
+    padding: 20px;
+}
+.leftoras {
+    margin-bottom: 5px;
+}
+.link {
+    padding-right: 5px;
+}
+.link a:hover {
+    color: red;
+    font-size: 18px;
+}
+.oras {
+    background-image: linear-gradient(rgb(175, 245, 135), rgb(58, 116, 116));
+    padding: 5px;
+    margin-bottom: 5px;
+    border-radius: 10px;
+    text-align: center;
+    font-size:12px;
+}
+.oras a:hover {
+    color: red;
+    text-decoration: blue;
+    font-size: 24px;
+    background-color: aquamarine;
+}
+.titlu {
+    background-color: black;
+    color: white;
+    padding: 5px;
+    margin:0px;
+    font-size: 24px;
+}
+.titlu ul {
+    list-style-type: none;
+}
+.titlu ul li {
+    display: inline;
+}
+.right {
+     color: rgb(24, 37, 226);
+     font-weight: normal;
+     font-size: 1vw;
+     float:right;
+     width: 20%;
+     padding : 2px;
+     margin-right: 0px;
+     margin-bottom: 14px;
+     line-height: 2;
+} 
+.right ul { 
+    list-style-type: none;
+    padding: 0; 
+    margin-right: 2px;
+    background-color: #f1f1f1;
+    text-align: center;
+}
+.right ul li {
+    margin: 10px;
+    padding: 5px;
+    list-style-type: none;
+}
+.right ul li a {
+    display: block;
+    color: #000;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+.right ul li a:hover {
+    background-color: #555;
+    color: white;
+}
+#righttext {
+    font-size: 12px;
+    color: blue;
+}
+.titlutext {
+    text-align: center;
+}
+.textimagine  {
+    text-align: left;
+    text-indent: 25px;
+    font-size: 18px;
+    font-weight: bold;
+}
+.form {
+    display: inline-block;
+}
+.footer input[type=text] {
+    width: 20%;
+    padding: 6px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border-radius: 10px;
+    background-image: linear-gradient(rgb(175, 245, 135), rgb(58, 116, 116));
+    color: rgb(72, 100, 226);
+    font-weight: bolder;
+  }
+.footer-list {
+    list-style-type: none;
+    display: inline-block;
+}
+.footer-li {
+    display: inline-block;
+    width: 32px;
+}
+.footer-grid2 {
+    display: inline-block;
+}
+.container-footer-grid {
+    display: inline-grid;
+    width: 1346px;
+    height: 30px;
+    border-radius: 15px;
+    grid-template-columns: 30% 70%   
+}
+.header-list {
+    list-style-type: none;
+    display: inline-block;
+    padding: none;
+    margin: none;
+}
+.header-search {
+    width: 84px;
+}
+
+
+  /********************************************************ID SELECTOR*********************************************************************/
+
